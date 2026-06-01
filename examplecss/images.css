@@ -1,0 +1,27 @@
+.site-header {
+  background: url("../img/images/headerbg.jpg") no-repeat center top;
+  background-size: 768px 246px;
+}
+
+.top-menu {
+  background: url("../img/images/menubg.jpg") no-repeat center top;
+  background-size: 768px 31px;
+}
+
+.widget h2 {
+  background: url("../img/images/menucat.jpg") no-repeat left top;
+  background-size: 160px 22px;
+}
+
+.site-footer {
+  background: url("../img/images/footerbg.jpg") no-repeat center top;
+  background-size: 768px 117px;
+}
+
+@media (max-width: 820px) {
+  .site-header,
+  .top-menu,
+  .site-footer {
+    background-size: 100% 100%;
+  }
+}
